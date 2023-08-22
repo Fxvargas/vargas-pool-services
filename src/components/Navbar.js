@@ -13,7 +13,7 @@ function Navbar() {
     };
 
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>
                 <img src={PlaceholderImage} alt="logo" />
                 <div className="hiddenLinks">
@@ -30,7 +30,7 @@ function Navbar() {
                     <ReorderIcon />
                 </button>
             </div>
-        </div>
+        </nav>
     );
 }
 
