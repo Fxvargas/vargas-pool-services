@@ -9,7 +9,7 @@ export const ServicesList = [
     {
         name: "Filter replacement",
         image: "",
-        description: "Filter replacement",
+        description: "Filter can replace filters",
         price: "50.00"
     },
 

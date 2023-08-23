@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PlaceholderImage from "../assets/img/home/placeholder-image.jpg";
+
 import "../styles/Home.css";
 
 function Home() {
     return (
-        <div className="home" style={{ backgroundImage: `url(${PlaceholderImage})`}}>
+        <div className="home">
             <div className="headerContainer">
                 <h1>Vargas Pool Services</h1>
-                <p>We offer many pool services.</p>
+            </div>
+            <div className="overviewContainer">
+                <p>The overview of our business will go here.</p>
                 <Link to="/services">
                     <button>Services</button>
                 </Link>
