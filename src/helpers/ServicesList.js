@@ -1,16 +1,23 @@
 export const ServicesList = [
     {
-        name: "cleaning",
+        name: "Cleaning",
         image: "",
         description: "We clean pools of all sizes. Prices are based off size of pool.",
         price: "50.00"
     },
 
     {
-        name: "open",
+        name: "Filter replacement",
         image: "",
-        description: "Pool opening",
-        price: "25.00"
+        description: "Filter replacement",
+        price: "50.00"
+    },
+
+    {
+        name: "Tile repair",
+        image: "",
+        description: "We repair tiles",
+        price: "50.00"
     }
 
 ]
